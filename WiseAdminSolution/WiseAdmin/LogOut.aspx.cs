@@ -14,7 +14,7 @@ namespace WiseAdmin
             Session.Clear();
             Session.Abandon();
             Response.Redirect("Default.aspx");
-            
+            Session.Abandon();
         }
     }
 }
